@@ -2,9 +2,7 @@
 *, *::before, *::after{
     box-sizing: border-box;
 }
-html{
-    background-color:#ddd;
-}
+
 body, header, main, footer{
     width: 100%;
     margin: 0 auto;
@@ -35,6 +33,7 @@ main{
     padding: 20px;
     margin-bottom: 30px;
     grid-area: main;
+    height:auto;
 }
 section{
     margin-bottom: 20px;
