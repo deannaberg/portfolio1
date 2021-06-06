@@ -61,17 +61,33 @@ h1 span{
     display: block;
     margin: 0;
 }
-a {
+p{
+    font-size: 1.2rem;
+}
+a{
+    color:inherit;
+}
+a:hover{
+    color: red;
+}
+.button {
     text-transform: uppercase;
     text-decoration: none;
     color: inherit;
     background-color: black;
     padding: 10px 15px;
-    margin-right: 10px;
+    margin-top: 10px;
     border-radius: 20px;
     color: #fff;
+    cursor: pointer;
+    display: inline-block;
 }
-
+a:hover{
+    cursor: pointer;
+}
+.reportContent{
+    height: auto;
+}
 footer{
     text-align: center;
     grid-area: footer;
