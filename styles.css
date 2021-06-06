@@ -40,6 +40,9 @@ section{
     padding-bottom: 30px;
     border-bottom: 1px solid black;
 }
+.bottomSection{
+    border-bottom: 0 none;
+}
 h1, h2, h3{
     font-family: futura-pt-bold, sans-serif;
     font-style: normal;
